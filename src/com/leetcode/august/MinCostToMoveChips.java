@@ -5,7 +5,6 @@ public class MinCostToMoveChips {
 	public int minCostToMoveChips(int[] position) {
 		if (position.length == 1)
 			return 0;
-		int count = 0;
 		int odds = 0;
 		int evens = 0;
 		for (int i = 0; i < position.length; i++) {
